@@ -1,0 +1,266 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #e6f2ff;
+}
+
+.background-img {
+	background-image: url('https://images.unsplash.com/photo-1440130266107-787dd24d69d7?auto=format&fit=crop&w=1494&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+/*Navbar styling*/
+
+.navbar-brand {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2em;
+	color: white;
+	margin-left: 0.5em;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav li a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #337ab7;	
+}
+
+.navbar-collapse .navbar-nav {
+	float: right;
+}
+
+.navbar-collapse ul:nth-child(3) {
+	margin-right: 3em;
+}
+
+.navbar-nav li:hover {
+	background: none;
+}
+
+.form-search .form-group {
+	display: inline;
+}
+
+/*Content styling*/
+
+.content {
+	height: 80vh;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 2em;
+}
+
+.jumbotron h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+h1 small {
+	color:#337ab7;
+}
+
+.content button {
+	margin-top: 2em;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	font-size: 1em;
+}
+
+/*Panel styling*/
+
+.panel {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.panel-heading {
+	font-size: 1.5em;
+}
+
+.article-img {
+	height: 250px;
+	width: 250px;
+	object-fit: cover;
+}
+
+/*Gallery styling*/
+
+.gallery {
+	height: auto;
+}
+
+.gallery-img {
+	margin: 1em 0;
+}
+
+/*Media styling*/
+
+.quotes img {
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+}
+
+.media-body {
+	padding-left: 2em;	
+	font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+/*Contact-box styling*/
+
+.offer {
+	margin: 2em auto;
+}
+
+.contact-box {
+	margin: 2em auto;
+}
+
+.modal-body p {
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+
+/*Instructors carousel styling*/
+
+.instructors h2 {
+	margin: 2em;
+}
+
+.item {
+	max-height: 700px;
+	overflow: hidden;
+}
+
+.example-3 img {
+	margin: auto;
+}
+
+/*Iframe-box styling*/
+
+.iframe-box {
+	margin: 2em auto;
+}
+
+.iframe-box h2 {
+	margin-bottom: 1em;
+}
+
+@media (max-width: 992px) {	
+	.article-img {
+		height: 150px;
+		width: 150px;
+		object-fit: cover;
+	}	
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+	
+	.jumbotron h1 {
+		font-size: 4em;
+	}
+	
+	.jumbotron h1 small {
+		font size: 2em;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	
+	.content {
+		position: relative;
+		bottom: 4em;
+	}
+	
+	.navbar-form {
+		border: none;
+	}
+	
+	.navbar-collapse {
+		padding-right: 0;
+	}
+		
+	.navbar-collapse ul {
+		margin: 0 auto;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.navbar-collapse .navbar-nav {
+		float: none;
+	}
+			
+	.input-s {
+		width: 70%;
+	}
+	
+	.search-submit {
+		color: black;
+		vertical-align: 0px;
+	}	
+	
+	.input-s, .search-submit {
+		display: inline;
+		margin-left: 0.5em;
+	}
+	
+	.navbar-brand {
+		color: white;
+		display: block;
+		float: none;
+	}
+	
+	.navbar-nav li a {
+		margin-left: 0.5em;
+		font-size: 1.5em;
+	}	
+	
+	.jumbotron h1 {
+		color: white;
+	}
+	
+	.media-body {
+		font-size: 1em;
+	}
+	
+	.panel p {
+		font-size: 0.8em;
+	}
+	
+	.contact-offer th, .contact-offer td, .contact-offer label, .contact-offer h5 {
+		font-size: 1em;
+	}
+	
+	.modal-body p {
+		font-size: 1em;
+	}
+	
+	.item {
+		max-height: 200px;
+		overflow: hidden;
+	}
+}
+	
+	
+
+
+
+
+
+
+
